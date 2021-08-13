@@ -4,7 +4,7 @@
 - [CR01: Оформление if / else](commons/cr01_if-else.md)
 - [CR02: Порядок полей класса при объявлении и в конструкторе](commons/cr02_class-fields-order.md)
 - [CR03: Оформление регионов](commons/cr03_class-regions.md)
-- [CR04: JavaDoc-комментирование](commons/cr04_java-doc.md)
+- [CR04: Комментирование сущностей](commons/cr04_commenting.md)
 - [CR05: Указывать this везде](commons/cr05_this.md)
 - [CR06: Статические поля/методы указывать через класс](commons/cr06_static-fields-and-methods-access.md)
 - [CR07: Количество return в методе ](commons/cr07_number_of_return.md)
