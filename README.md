@@ -10,12 +10,17 @@
 - [CR07: Количество return в методе ](commons/cr07_number_of_return.md)
 - [CR08: Пустые строки ](commons/cr08_empty-lines.md)
 - [CR09: Булевы выражения ](commons/cr09_boolean-expression.md)
+- [CR10: Написание кода цепочки вызовов с вложенными выражениями ](commons/cr10_code-style-for-expression-chains.md)
+- [CR11: Методы и переменные ](commons/cr11_methods-and-variables.md)
+- [CR12: Типизированные ID ](commons/cr12_typified-id.md)
 
 ## Java
-- TODO
+- [JR01: Слои бизнес-логики ](backend/java/jr01_business-logic-layers.md)
+- [JR02: Java классы ](backend/java/jr02_class.md)
+- [JR03: Неизменяемые объекты ](backend/java/jr03_immutable-object.md)
 
 ## SQL
-- TODO
+- [SR12: Индексы для внешних ключей ](backend/sql/sr01_index-on-fk.md)
 
 ## Typescript
 - [TR01: Trailing commas](frontend/typescript/tr01_trailing-comma.md)
@@ -25,6 +30,7 @@
 - [AR02: Selector'ы в Angular проекте](frontend/angular/ar02-selectors.md)
 - [AR03: Импорты в Angular](frontend/angular/ar03-imports.md)
 - [AR04: Порядок свойств CSS](frontend/angular/ar04_css-properties-order.md)
+- [AR05: Html атрибуты](frontend/angular/ar05_html-attributes.md)
 
 ## Git
 - [GR01: Первый коммит к задаче](git/gr01_task-first-commit.md)
