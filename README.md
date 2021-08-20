@@ -20,7 +20,7 @@
 - [JR03: Неизменяемые объекты ](backend/java/jr03_immutable-object.md)
 
 ## SQL
-- [SR12: Индексы для внешних ключей ](backend/sql/sr01_index-on-fk.md)
+- [SR01: Индексы для внешних ключей ](backend/sql/sr01_index-on-fk.md)
 
 ## Typescript
 - [TR01: Trailing commas](frontend/typescript/tr01_trailing-comma.md)
