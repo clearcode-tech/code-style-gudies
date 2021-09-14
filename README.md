@@ -30,6 +30,7 @@
 - [GR01: Первый коммит к задаче](git/gr01_task-first-commit.md)
 - [GR02: Некорректно привязанные коммиты](git/gr02_incorrect-linked-commits.md)
 - [GR03: Разрешение конфликтов при релизе](git/gr03_resolving-release-conflicts.md)
+- [GR04: Фомирование коммитов рефакторинга](git/gr04_refactoring-commits.md)
 
 ## Jira
 - [JIRAR01: Комментарий по завершении задачи](jira/jirar01_task-comment.md)
