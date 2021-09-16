@@ -12,7 +12,7 @@
 - [CR09: Булевы выражения ](commons/cr09_boolean-expression.md)
 
 ## Java
-- TODO
+- [JR04: Создание модели данных](backend/java/jr04_models.md)
 
 ## SQL
 - TODO
