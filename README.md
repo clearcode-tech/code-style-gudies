@@ -34,3 +34,4 @@
 ## Jira
 - [JIRAR01: Комментарий по завершении задачи](jira/jirar01_task-comment.md)
 - [JIRAR02: Начало задачи](jira/jirar02_start-task.md)
+- [JIRAR03: Слияние задач](jira/jirar03_merge-branches.md)
