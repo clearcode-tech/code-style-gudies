@@ -1,4 +1,4 @@
-## Common Rule: Оформление if / else
+## Common Rule: Оформление if / else / switch
 
 
 
@@ -66,3 +66,20 @@
    }
    ```
 
+5. Оформление `switch`:
+```
+switch (...) {
+
+    case X:
+        ...
+        break;
+
+    case Y:
+        ...
+        break; 
+    ...
+
+    default:
+        ...
+}
+```
