@@ -1,7 +1,7 @@
 # Правила по написанию и оформлению кода
 
 ## Общие правила
-- [CR01: Оформление if / else](commons/cr01_if-else.md)
+- [CR01: Оформление if / else / switch](commons/cr01_if-else.md)
 - [CR02: Порядок полей класса при объявлении и в конструкторе](commons/cr02_class-fields-order.md)
 - [CR03: Оформление регионов](commons/cr03_class-regions.md)
 - [CR04: Комментирование сущностей](commons/cr04_commenting.md)
