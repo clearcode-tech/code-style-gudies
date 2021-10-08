@@ -67,19 +67,19 @@
    ```
 
 5. Оформление `switch`:
-```
-switch (...) {
+   ```
+   switch (...) {
 
-    case X:
-        ...
-        break;
+       case X:
+           ...
+           break;
 
-    case Y:
-        ...
-        break; 
-    ...
+       case Y:
+           ...
+           break; 
+       ...
 
-    default:
-        ...
-}
-```
+       default:
+           ...
+   }
+   ```
