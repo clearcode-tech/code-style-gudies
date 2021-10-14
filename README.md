@@ -13,6 +13,7 @@
 
 ## Java
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
+- [JR05: Создание валидаторов и обработчиков запроса](backend/java/jr05_action_and_validator.md)
 
 ## SQL
 - TODO
