@@ -10,7 +10,7 @@
 - [CR07: Количество return в методе ](commons/cr07_number_of_return.md)
 - [CR08: Пустые строки ](commons/cr08_empty-lines.md)
 - [CR09: Булевы выражения ](commons/cr09_boolean-expression.md)
-- [CR10: Написание кода цепочки вызовов с вложенными выражениями ](commons/cr10_code-style-for-expression-chains.md)
+- [CR10: Цепочки вызовов с вложенными выражениями ](commons/cr10_call_chains_with_nested_expressions.md)
 - [CR11: Методы и переменные ](commons/cr11_methods-and-variables.md)
 
 ## Java
