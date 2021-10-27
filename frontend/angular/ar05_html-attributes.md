@@ -14,5 +14,5 @@
     [class.very-long-class-name1]="true"
     [class.very-long-class-name2]="true"
 >
-<div/>
+</div>
 ```
