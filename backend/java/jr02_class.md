@@ -14,14 +14,14 @@
 #### Правила для моделей (Entity)
 
 1. Используем аннотации:
-- lombok.AllArgsConstructor(access = AccessLevel.PRIVATE) -- без необходимости не расширяем видимость конструктора
-- lombok.NoArgsConstructor(access = AccessLevel.PRIVATE, force = true) -- без необходимости не расширяем видимость конструктора
-- lombok.Builder -- (или SuperBuilder если есть наследование)
-- lombok.Getter
-- lombok.EqualsAndHashCode(callSuper = true, onlyExplicitlyIncluded = true) --
-- javax.persistence.Entity
+- lombok.AllArgsConstructor(access = AccessLevel.PRIVATE) для добавления конструктора, содержащего все поля класса в качестве параметров (без необходимости не расширяем видимость конструктора).
+- lombok.NoArgsConstructor(access = AccessLevel.PRIVATE, force = true) для добавления конструктора без параметров (без необходимости не расширяем видимость конструктора).
+- lombok.Builder или SuperBuilder (если есть наследование) для возможности инстанцирования объекта паттерном Builder.
+- lombok.Getter для доступа к значениям полей класса.
+- lombok.EqualsAndHashCode(callSuper = true, onlyExplicitlyIncluded = true) для переопределения equals и hashcode объекта.
+- javax.persistence.Entity для обозначения сущностей.
 
-2. Все модели (Entity) мы наследуем от BaseModel.
+2. Модели (Entity) наследуем от BaseModel.
 
 3. Для удобства работы с БД - для всех полей класса делаем enum отображение:
 ```
