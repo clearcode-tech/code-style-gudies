@@ -1,11 +1,12 @@
 ## Angular Rule 5: Html атрибуты
 
 1. Порядок расположения атрибутов в теге:
-- ngIf*
-- class
-- mat
-- html | angular
-- handler
+- Структурные директивы: `ngIf`, `ngFor`, `*ngSwitch`.
+- Класс: `class="..."`.
+- Mat-атрибуты: `mat-button`, `mat-menu-item` и т.п.
+- Общие атрибуты html: `id`, `appearance`, и т.п.
+- Атрибуты angular: `[label]`, `[formGroup]`, `[searchable]`, `[multiple]` и т.п.
+- Обработчики событий: `(click)`, `(change)`, `(hide)` и т.п.
 
 Пример написания длинных class:
 ```
