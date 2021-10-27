@@ -2,25 +2,25 @@
 
 ## Общие правила
 - [CR01: Оформление if / else](commons/cr01_if-else.md)
-- [CR02: Порядок полей класса при объявлении и в конструкторе](commons/cr02_class-fields-order.md)
+- [CR02: Порядок полей класса](commons/cr02_class-fields-order.md)
 - [CR03: Оформление регионов](commons/cr03_class-regions.md)
 - [CR04: JavaDoc-комментирование](commons/cr04_java-doc.md)
 - [CR05: Указывать this везде](commons/cr05_this.md)
 - [CR06: Статические поля/методы указывать через класс](commons/cr06_static-fields-and-methods-access.md)
-- [CR07: Количество return в методе ](commons/cr07_number_of_return.md)
-- [CR08: Пустые строки ](commons/cr08_empty-lines.md)
-- [CR09: Булевы выражения ](commons/cr09_boolean-expression.md)
-- [CR10: Цепочки вызовов с вложенными выражениями ](commons/cr10_call_chains_with_nested_expressions.md)
-- [CR11: Методы и переменные ](commons/cr11_methods-and-variables.md)
+- [CR07: Количество return в методе](commons/cr07_number_of_return.md)
+- [CR08: Пустые строки](commons/cr08_empty-lines.md)
+- [CR09: Булевы выражения](commons/cr09_boolean-expression.md)
+- [CR10: Цепочки вызовов с вложенными выражениями](commons/cr10_call_chains_with_nested_expressions.md)
+- [CR11: Методы и переменные](commons/cr11_methods-and-variables.md)
 
 ## Java
-- [JR01: Слои бизнес-логики ](backend/java/jr01_business-logic-layers.md)
-- [JR02: Java классы ](backend/java/jr02_class.md)
-- [JR03: Неизменяемые объекты ](backend/java/jr03_immutable-object.md)
-- [JR04: Типизированные ID ](backend/java/jr04_typified-id.md)
+- [JR01: Слои бизнес-логики](backend/java/jr01_business-logic-layers.md)
+- [JR02: Java классы](backend/java/jr02_class.md)
+- [JR03: Неизменяемые объекты](backend/java/jr03_immutable-object.md)
+- [JR04: Типизированные ID](backend/java/jr04_typified-id.md)
 
 ## SQL
-- [SR01: Индексы для внешних ключей ](backend/sql/sr01_index-on-fk.md)
+- [SR01: Индексы для внешних ключей](backend/sql/sr01_index-on-fk.md)
 
 ## Typescript
 - [TR01: Trailing commas](frontend/typescript/tr01_trailing-comma.md)
