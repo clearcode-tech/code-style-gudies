@@ -1,18 +1,32 @@
 ## Common Rule 2: Порядок полей класса
 
+### Поля в классе располагать в алфавитном порядке.
+Исключения — классы моделей и DTO.
+
+IDEA поддерживает автоматическую сортировку полей классов. Настройка для Java:
+
+1. Перейти в настройки `File | Settings | Editor | Code Style | Java | Arrangement`
+2. Убрать все галочки из `Grouping rules`
+3. Удалить все правила из `Matching rules`
+4. Добавить правило (значок **+** или Alt+Insert), выбрать `Type: field`, выбрать `Order: order by name`, другие свойства не менять.
+5. Задать стандартные пустые строки после заголовка класса и вокруг полей: перейти в раздел `Blank lines` и в полях `After class header` и `Around field` вписать **1**.
+6. Теперь, когда вам нужна пересортировка полей в классе, вы можете кликнуть `Code | Rearrange Code` и поля в текущем открытом файле будут отсортированы в соответствии с заданными правилами.
 
 
-При перечислении полей класса, их порядок должен сохраняться.
+![Arrangement](../images/commons/02/idea_settings_for_field_sorting.png)
 
-#### В конструкторе
 
-Например, для Java это даже IDEA поддерживает. Добавили поле класса, нажали Alt + Enter на нём, и IDEA предложит добавить это поле как входной параметр конструктора. И если сделать эту операцию, то IDEA добавит параметр в конструктор согласно порядку полей при объявлении.
+### При перечислении полей в классе, их порядок должен сохраняться и в конструкторе.
 
-В случае с наследованием - первыми идут поля, которые объявлены в базовом/-ых классах, в той последовательности, в которой они указаны в родительских классах.
+В случае наследования в перечислении в конструкторе первыми идут поля, которые объявлены в базовом/-ых классах.
+
+IDEA поддерживает автоматическое добавление полей в конструктор для Java. После того как добавили поле класса, нажмите Alt + Enter на нём, и IDEA предложит добавить это поле как входной параметр конструктора. И если сделать эту операцию, то IDEA добавит параметр в конструктор согласно порядку полей при объявлении. 
 
 Java:
 
 ```
+public final class SomeService {
+
 public class OtherService {
 
     private final Client client;
@@ -25,6 +39,9 @@ public class SomeService extends OtherService {
     private final DateParser dateParser;
 
     private final SomeExtractor someExtractor;
+
+    public SomeService(DateParser dateParser, SomeExtractor someExtractor) {
+    
 
     /**
      * ...
@@ -63,7 +80,7 @@ public class SomeService {
      * @param someExtractor ...
      */
     constructor(DateParser dateParser, SomeExtractor someExtractor) {
-    
+
         this._dateParser = dateParser;
         this._someExtractor = someExtractor;
     }
