@@ -12,12 +12,12 @@
 - [CR09: Булевы выражения ](commons/cr09_boolean-expression.md)
 - [CR10: Написание кода цепочки вызовов с вложенными выражениями ](commons/cr10_code-style-for-expression-chains.md)
 - [CR11: Методы и переменные ](commons/cr11_methods-and-variables.md)
-- [CR12: Типизированные ID ](commons/cr12_typified-id.md)
 
 ## Java
 - [JR01: Слои бизнес-логики ](backend/java/jr01_business-logic-layers.md)
 - [JR02: Java классы ](backend/java/jr02_class.md)
 - [JR03: Неизменяемые объекты ](backend/java/jr03_immutable-object.md)
+- [JR04: Типизированные ID ](backend/java/jr04_typified-id.md)
 
 ## SQL
 - [SR01: Индексы для внешних ключей ](backend/sql/sr01_index-on-fk.md)
