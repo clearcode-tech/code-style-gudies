@@ -23,7 +23,7 @@
 
 2. Все модели (Entity) мы наследуем от BaseModel.
 
-3. Для удобства работы с моделями - для всех полей класса делаем enum отображение:
+3. Для удобства работы с БД - для всех полей класса делаем enum отображение:
 ```
 public final class DocumentSigningRequest extends BaseModel {
 
