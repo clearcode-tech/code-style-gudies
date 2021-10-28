@@ -13,6 +13,7 @@
 
 ## Java
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
+- [JR06: Требования к импортам](backend/java/jr06_import_requirements.md)
 
 ## SQL
 - TODO
