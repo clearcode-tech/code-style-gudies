@@ -13,6 +13,7 @@
 
 ## Java
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
+- [JR08: Сортировка методов](backend/java/jr08_sorting_methods.md)
 
 ## SQL
 - TODO
