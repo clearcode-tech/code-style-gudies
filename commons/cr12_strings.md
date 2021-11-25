@@ -1,4 +1,4 @@
-## Common Rule: Строки
+## Common Rule 12: Строки
 
 
 
@@ -10,5 +10,5 @@
    ```
     const name: string = currentUser.getEmployeeLastName()
         + " " + currentUser.getEmployeeFirstName()
-        + " " + currentUser.getEmployeePatronymic()
+        + " " + currentUser.getEmployeePatronymic();
    ```
