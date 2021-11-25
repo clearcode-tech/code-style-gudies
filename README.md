@@ -15,7 +15,6 @@
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
 - [JR05: Создание валидаторов и обработчиков запроса](backend/java/jr05_action_and_validator.md)
 - [JR06: Виды объектов для передачи данных между слоями](backend/java/jr06_transfer_object_type.md)
-- [JR07: Объекты Kafka](backend/java/jr07_kafka_objects.md)
 
 ## SQL
 - TODO
