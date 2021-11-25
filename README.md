@@ -35,3 +35,6 @@
 ## Jira
 - [JIRAR01: Комментарий по завершении задачи](jira/jirar01_task-comment.md)
 - [JIRAR02: Начало задачи](jira/jirar02_start-task.md)
+
+## Инструменты для code-style
+- [TOOLS01: Inspect code](tools/tools01_inspect-code.md)
