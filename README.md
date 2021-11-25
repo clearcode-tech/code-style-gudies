@@ -13,7 +13,7 @@
 
 ## Java
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
-- [JR07: Коды ошибок](backend/java/jr07_error_codes.md)
+- [JR07: Коды ошибок и операций](backend/java/jr07_error_and_operation_codes.md)
 
 ## SQL
 - TODO
