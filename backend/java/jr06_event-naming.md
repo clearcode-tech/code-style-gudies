@@ -18,14 +18,14 @@
 
 1. Внутри пакета WebSocket не будет двух handler'ов одного и того же события, поэтому их можно просто именовать {Какое событие}Handler.
 
-2. При формировании имени группы по правилу Kafka **{Что делаем}** On **{Какое событие}** Group возникает проблема неуникальности в рамках всей системы, поэтому для веб-сокетов правило чуть дорабатывается до вида: Kafka **{Какое событие}** On **{Какое событие}** WebSocketGroup
+2. При формировании имени группы по правилу Kafka **{Что делаем}** On **{Какое событие}** Group возникает проблема неуникальности в рамках всей системы, поэтому для веб-сокетов правило чуть дорабатывается до вида: Kafka **{Что делаем}** On **{Какое событие}** WebSocketEventSubscriberGroup
 
 Таким образом для WebSocket событий на примере события DocumentSigningRedirectEvent:
 
 * **{Какое событие}** Handler -> `DocumentSigningRedirectEventHandler`
 * Kafka **{Какое событие}** Subscriber -> `KafkaDocumentSigningRedirectEventSubscriber`
 * Kafka **{Какое событие}** SubscriberProvider -> `KafkaDocumentSigningRedirectEventSubscriberProvider`
-* **{Какое событие}** WebSocketSubscriberGroup -> `documentSigningRedirectEventWebSocketSubscriberGroup`
+* **{Какое событие}** WebSocketEventSubscriberGroup -> `documentSigningRedirectEventWebSocketEventSubscriberGroup`
 
 ### Размещение
 
