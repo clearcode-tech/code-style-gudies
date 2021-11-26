@@ -8,17 +8,17 @@
 **Пример:**
 Событие **{Что делаем}** - обработка успешного подписания документа (DocumentSigning), слушаем события **{Какое событие}** - успешное подписание файла (FileSigningSucceededEvent).
 
-* Kafka **{Какое событие}** On **{Какое событие}** Handler -> `KafkaDocumentSigningOnFileSigningSucceededEventHandler`
-* Kafka **{Какое событие}** On **{Какое событие}** Subscriber -> `KafkaDocumentSigningOnFileSigningSucceededEventSubscriber`
-* Kafka **{Какое событие}** On **{Какое событие}** SubscriberProvider -> `KafkaDocumentSigningOnFileSigningSucceededEventSubscriberProvider`
-* **{Какое событие}** On **{Какое событие}** SubscriberGroup -> `documentSigningOnFileSigningSucceededEventSubscriberGroup`
+* Kafka **{Что делаем}** On **{Какое событие}** Handler -> `KafkaDocumentSigningOnFileSigningSucceededEventHandler`
+* Kafka **{Что делаем}** On **{Какое событие}** Subscriber -> `KafkaDocumentSigningOnFileSigningSucceededEventSubscriber`
+* Kafka **{Что делаем}** On **{Какое событие}** SubscriberProvider -> `KafkaDocumentSigningOnFileSigningSucceededEventSubscriberProvider`
+* **{Что делаем}** On **{Какое событие}** SubscriberGroup -> `documentSigningOnFileSigningSucceededEventSubscriberGroup`
 
 
 ### Правила для именования, связанные с событиями WebSocket
 
 1. Внутри пакета WebSocket не будет двух handler'ов одного и того же события, поэтому их можно просто именовать {Какое событие}Handler.
 
-2. При формировании имени группы по правилу Kafka **{Какое событие}** On **{Какое событие}** Group возникает проблема неуникальности в рамках всей системы, поэтому для веб-сокетов правило чуть дорабатывается до вида: Kafka **{Какое событие}** On **{Какое событие}** WebSocketGroup
+2. При формировании имени группы по правилу Kafka **{Что делаем}** On **{Какое событие}** Group возникает проблема неуникальности в рамках всей системы, поэтому для веб-сокетов правило чуть дорабатывается до вида: Kafka **{Какое событие}** On **{Какое событие}** WebSocketGroup
 
 Таким образом для WebSocket событий на примере события DocumentSigningRedirectEvent:
 
