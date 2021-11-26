@@ -1,7 +1,7 @@
 # Правила по написанию и оформлению кода
 
 ## Общие правила
-- [CR01: Оформление if / else](commons/cr01_if-else.md)
+- [CR01: Оформление if / else / switch](commons/cr01_if-else.md)
 - [CR02: Порядок полей класса при объявлении и в конструкторе](commons/cr02_class-fields-order.md)
 - [CR03: Оформление регионов](commons/cr03_class-regions.md)
 - [CR04: Комментирование сущностей](commons/cr04_commenting.md)
@@ -12,7 +12,7 @@
 - [CR09: Булевы выражения ](commons/cr09_boolean-expression.md)
 
 ## Java
-- TODO
+- [JR04: Создание модели данных](backend/java/jr04_models.md)
 
 ## SQL
 - TODO
@@ -30,6 +30,7 @@
 - [GR01: Первый коммит к задаче](git/gr01_task-first-commit.md)
 - [GR02: Некорректно привязанные коммиты](git/gr02_incorrect-linked-commits.md)
 - [GR03: Разрешение конфликтов при релизе](git/gr03_resolving-release-conflicts.md)
+- [GR05: Версионирование в ветках dev](git/gr05_dev_branches_versioning.md)
 
 ## Jira
 - [JIRAR01: Комментарий по завершении задачи](jira/jirar01_task-comment.md)
