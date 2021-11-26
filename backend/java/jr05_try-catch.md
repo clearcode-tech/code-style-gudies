@@ -37,9 +37,10 @@
     
             ...
         }
-        catch (IllegalStateException e) {
+        catch (InterruptedException e) {
     
-            throw new IllegalStateException("message", e);
+            Thread.currentThread().interrupt();
+            throw new IllegalStateException("Request to something was interrupted", e);
         }
     }
     ...
