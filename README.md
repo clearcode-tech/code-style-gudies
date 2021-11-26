@@ -13,7 +13,7 @@
 
 ## Java
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
-- [JR05: Именования для обработки событий](backend/java/jr05_event-naming.md)
+- [JR06: Именования для обработки событий](backend/java/jr06_event-naming.md)
 
 ## SQL
 - TODO
