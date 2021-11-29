@@ -1,4 +1,4 @@
-## Java Rule 7: Коды ошибок и операций
+## Java Rule 8: Коды ошибок и операций
 
 1. Для удобства разработки была введена система бронирования кодов через google
 <a href="https://docs.google.com/spreadsheets/d/1ynslciDe1DOxcpM_dttfqim9MHh235j_vsvCK62a_Vk/">таблицу</a>.
