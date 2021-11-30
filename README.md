@@ -14,6 +14,8 @@
 ## Java
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
 - [JR06: Именования для обработки событий](backend/java/jr06_event-naming.md)
+- [JR07: Требования к импортам](backend/java/jr07_import_requirements.md)
+- [JR08: Коды ошибок и операций](backend/java/jr08_error_and_operation_codes.md)
 
 ## SQL
 - TODO
