@@ -17,7 +17,7 @@
 - [JR08: Коды ошибок и операций](backend/java/jr08_error_and_operation_codes.md)
 
 ## SQL
-- TODO
+- [SR02: Insert](backend/sql/sr02_insert.md)
 
 ## Typescript
 - [TR01: Trailing commas](frontend/typescript/tr01_trailing-comma.md)
