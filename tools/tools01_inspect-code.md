@@ -1,4 +1,4 @@
-## Code style tools: Inspect code
+## Code style tools 1: Inspect code
 
 
 Inspect code это инструмент Idea с большим количеством настроек для поиска проблемных участков кода.
