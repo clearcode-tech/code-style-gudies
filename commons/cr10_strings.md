@@ -1,4 +1,4 @@
-## Common Rule 12: Строки
+## Common Rule 10: Строки
 
 
 
