@@ -9,7 +9,7 @@
 - Статических фабрик.
 - Очевидных полей класса. Например, наши сервисы, менеджеры, клиенты, репозитории и т.п.
 Но константы и нативные объекты языка программирования или сторонних библиотек к ним не относятся.
-- Полей стандартных интерфейсов параметризованных нашими объектами. Например, `Provider<KafkaApplicationGroupFilesSigningFailedSubscriber> subscriber`.
+- Полей **стандартных** интерфейсов параметризованных нашими объектами. Например, `Provider<KafkaApplicationGroupFilesSigningFailedSubscriber> subscriber` и `Store<AppState>`.
 
 Правило касается и Java и Typescript.
 
