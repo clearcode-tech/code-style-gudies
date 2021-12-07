@@ -8,7 +8,7 @@
 
 Пример:
    ```
-    const name: string = currentUser.getEmployeeLastName()
-        + " " + currentUser.getEmployeeFirstName()
-        + " " + currentUser.getEmployeePatronymic();
+    const name: string = "Some text \n"
+        + "Very interesting part \n"
+        + "Finally part \n";
    ```
