@@ -15,7 +15,7 @@
 
 public ClientUserDTO getClientUserData(...) {...}
 
-public void updateClientUser(...) {...}
+public ClientUser updateClientUser(...) {...}
 
 //endregion
 //region Person
