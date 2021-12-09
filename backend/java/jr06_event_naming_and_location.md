@@ -1,4 +1,4 @@
-## Java Rule 6: Именования для обработки событий
+## Java Rule 6: Создание и расположение сущностей, связанных с обработкой событий
 
 
 ### Правила для именования, связанные с событиями Kafka
@@ -8,8 +8,8 @@
 **Пример:**
 **{Что делаем}** - выполняем подписание документа (DocumentSigning), **{Какое событие}** - успешное подписание файла (FileSigningSucceededEvent).
 
-* Kafka **{Какое событие}** Publisher -> `KafkaDocumentSigningOnFileSigningSucceededEventHandler`
-* Kafka **{Что делаем}** On **{Какое событие}** Handler -> `KafkaDocumentSigningOnFileSigningSucceededEventHandler`
+* Kafka **{Какое событие}** Publisher -> `KafkaDocumentSigningOnFileSigningSucceededEventPublisher`
+* **{Что делаем}** On **{Какое событие}** Handler -> `DocumentSigningOnFileSigningSucceededEventHandler`
 * Kafka **{Что делаем}** On **{Какое событие}** Subscriber -> `KafkaDocumentSigningOnFileSigningSucceededEventSubscriber`
 * Kafka **{Что делаем}** On **{Какое событие}** SubscriberProvider -> `KafkaDocumentSigningOnFileSigningSucceededEventSubscriberProvider`
 * **{Что делаем}** On **{Какое событие}** SubscriberGroup -> `documentSigningOnFileSigningSucceededEventSubscriberGroup`
@@ -27,7 +27,7 @@
 * **{Какое событие}** Handler -> `DocumentSigningRedirectEventHandler`
 * Kafka **{Какое событие}** Subscriber -> `KafkaDocumentSigningRedirectEventSubscriber`
 * Kafka **{Какое событие}** SubscriberProvider -> `KafkaDocumentSigningRedirectEventSubscriberProvider`
-* **{Какое событие}** WebSocketEventSubscriberGroup -> `documentSigningRedirectEventWebSocketEventSubscriberGroup`
+* **{Какое событие}** WebSocketEventSubscriberGroup -> `documentSigningRedirectWebSocketEventSubscriberGroup`
 
 ### Размещение
 
@@ -35,12 +35,16 @@
 - topic: Создаётся там же, где event. Место размещения _ru/ekd/commons/pubsub/topics_.
 - publisher: Создаётся в том модуле, где будет производиться отправка события в топик. Если отправка события может понадобиться более, чем одному модулю, то _publisher_ располагается в commons. Место размещения для commons - _ru/ekd/commons/pubsub_kafka_, путь для monolith _.../pubsub_kafka/publishers_.
 - handler: Создаётся в том модуле, где происходит приём события. Место размещения .../business_logic/pubsub.
-- subscriber: Создаётся в том же модуле, где и обработчик. Место размещения _ru/ekd/server_ekd/pubsub_kafka/subscribers_
+- subscriber: Создаётся в том же модуле, где и обработчик. Место размещения _.../server-.../pubsub_kafka/subscribers_
 - provider: Создаётся в том же модуле, где и подписчик. Место размещения вместе с подписчиком.
 
 ### Настройка publisher и provider
 
 Для работоспособности требуется забиндить издателя и поставщика экземпляров подписчиков.
-KafkaPubSubModule размещается в _.../pubsub_kafka_.
+{server_name}KafkaPubSubModule размещается в _.../pubsub_kafka_.
 В модуле есть 2 метода: `configurePublishers` для указания издателей и `configureSubscribers` для указания подписчиков, которые нужно подключить.
-Пример подключения издателя: `publishers.addBinding().to(KafkaSendNotificationOnDocumentPrintFormCreatedEventSubscriberProvider.class);`.
+Пример подключения издателя: 
+```
+publishers.addBinding().to(KafkaSendNotificationOnDocumentPrintFormCreatedEventSubscriberProvider.class);
+this.bind(new TypeLiteral<Publisher<DocumentPrintFormCreatedEvent>>() { }) .to(KafkaSendNotificationOnDocumentPrintFormCreatedEventSubscriberProvider.class);
+```
