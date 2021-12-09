@@ -10,10 +10,13 @@
 - [CR07: Количество return в методе ](commons/cr07_number_of_return.md)
 - [CR08: Пустые строки ](commons/cr08_empty-lines.md)
 - [CR09: Булевы выражения ](commons/cr09_boolean-expression.md)
+- [CR10: Строки](commons/cr10_strings.md)
 
 ## Java
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
-- [JR08: Сортировка методов](backend/java/jr08_sorting_methods.md)
+- [JR07: Требования к импортам](backend/java/jr07_import_requirements.md)
+- [JR08: Коды ошибок и операций](backend/java/jr08_error_and_operation_codes.md)
+- [JR09: Сортировка методов](backend/java/jr09_sorting_methods.md)
 
 ## SQL
 - TODO
