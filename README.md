@@ -20,6 +20,7 @@
 - [JR03: Неизменяемые объекты](backend/java/jr03_immutable-object.md)
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
 - [JR05: Типизированные ID](backend/java/jr05_typified-id.md)
+- [JR07: Именование методов](backend/java/jr07_naming-methods.md)
 
 ## SQL
 - [SR01: Индексы для внешних ключей](backend/sql/sr01_index-on-fk.md)
