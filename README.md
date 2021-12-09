@@ -12,6 +12,7 @@
 - [CR09: Булевы выражения](commons/cr09_boolean-expression.md)
 - [CR10: Цепочки вызовов с вложенными выражениями](commons/cr10_call_chains_with_nested_expressions.md)
 - [CR11: Именование методов и переменных](commons/cr11_naming-methods-and-variables.md)
+- [CR12: Константы](commons/cr12_constants.md)
 
 ## Java
 - [JR01: Слои бизнес-логики](backend/java/jr01_business-logic-layers.md)
