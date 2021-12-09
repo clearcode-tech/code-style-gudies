@@ -5,8 +5,8 @@
 - Класс: `class="..."`.
 - Mat-атрибуты: `mat-button`, `mat-menu-item` и т.п.
 - Общие атрибуты html: `id`, `appearance`, и т.п.
-- Атрибуты angular: `[label]`, `[formGroup]`, `[searchable]`, `[multiple]` и т.п.
-- Обработчики событий: `(click)`, `(change)`, `(hide)` и т.п.
+- Атрибуты angular: `[label]`, `[formGroup]`, `[searchable]`, `[multiple]` и другие input компоненты.
+- Обработчики событий: `(click)`, `(change)`, `(hide)` и другие output компоненты.
 
 Пример написания длинных class:
 ```
