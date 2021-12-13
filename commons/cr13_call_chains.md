@@ -13,6 +13,9 @@
     ```
     Document document = documents.stream().filter(Document::isDraft).findFirst();
     ```
+    ```
+    Application updatedApplication = application.toBuilder().signedDate(Instant.now()).build();
+    ```
 
 2. Для первого многострочного выражения в цепочке вызовов, которое не уместилось в одну строку, действуют правила:
 - Аргументы первого выражения имеют дополнительный отступ (4 пробела).
