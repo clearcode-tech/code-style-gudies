@@ -34,7 +34,7 @@
 - event: Создаётся в commons. Место размещения _ru/ekd/commons/pubsub/events_.
 - topic: Создаётся там же, где event. Место размещения _ru/ekd/commons/pubsub/topics_.
 - publisher: Создаётся в том модуле, где будет производиться отправка события в топик. Если отправка события может понадобиться более, чем одному модулю, то _publisher_ располагается в commons. Место размещения для commons - _ru/ekd/commons/pubsub_kafka_, путь для monolith _.../pubsub_kafka/publishers_.
-- handler: Создаётся в том модуле, где происходит приём события. Место размещения .../business_logic/pubsub.
+- handler: Создаётся в том модуле, где происходит приём события. Место размещения _.../business_logic/pubsub_.
 - subscriber: Создаётся в том же модуле, где и обработчик. Место размещения _.../server-.../pubsub_kafka/subscribers_
 - provider: Создаётся в том же модуле, где и подписчик. Место размещения вместе с подписчиком.
 
