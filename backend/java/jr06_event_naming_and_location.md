@@ -27,7 +27,7 @@
 * **{Какое событие}** Handler -> `DocumentSigningRedirectEventHandler`
 * Kafka **{Какое событие}** Subscriber -> `KafkaDocumentSigningRedirectEventSubscriber`
 * Kafka **{Какое событие}** SubscriberProvider -> `KafkaDocumentSigningRedirectEventSubscriberProvider`
-* **{Какое событие}** WebSocketEventSubscriberGroup -> `documentSigningRedirectWebSocketEventSubscriberGroup`
+* **{Какое событие без суффикса Event}** WebSocketEventSubscriberGroup -> `documentSigningRedirectWebSocketEventSubscriberGroup`
 
 ### Размещение
 
