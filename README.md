@@ -14,6 +14,7 @@
 
 ## Java
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
+- [JR06: Создание и расположение сущностей, связанных с обработкой событий](backend/java/jr06_event_naming_and_location.md)
 - [JR07: Требования к импортам](backend/java/jr07_import_requirements.md)
 - [JR08: Коды ошибок и операций](backend/java/jr08_error_and_operation_codes.md)
 - [JR09: Сортировка методов](backend/java/jr09_sorting_methods.md)
