@@ -93,7 +93,7 @@ public class SomeService {
 
 #### В билдере
 
-При использовании .boulder() и .toBuilder() мы сохраняем порядок полей класса.
+При использовании .builder() и .toBuilder() мы сохраняем порядок полей класса.
 
 ```
 public class M {
@@ -128,7 +128,7 @@ public class SomeService {
     public M update(M model, String lastName, String company) {
 
         this.someRepository.update(
-            model.tobuilder()
+            model.toBuilder()
                 .lastName(lastName)
                 .company(company)
                 .build()
@@ -164,7 +164,7 @@ public class SomeService {
         String company
     ) {
         this.someRepository.update(
-            model.tobuilder()
+            model.toBuilder()
                 .firstName(firstName)
                 .lastName(lastName)
                 .age(age)
