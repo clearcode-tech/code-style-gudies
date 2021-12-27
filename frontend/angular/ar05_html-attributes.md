@@ -1,7 +1,7 @@
 ## Angular Rule 5: Html атрибуты
 
 1. Порядок расположения атрибутов в теге:
-- Структурные директивы: `ngIf`, `ngFor`, `*ngSwitch`.
+- Структурные директивы: `ngIf`, `ngFor`, `ngSwitch`.
 - Класс: `class="..."`.
 - Mat-атрибуты: `mat-button`, `mat-menu-item` и т.п.
 - Общие атрибуты html: `id`, `appearance`, и т.п.
