@@ -1,4 +1,4 @@
-## Common Rule 2: Порядок полей класса при объявлении и в конструкторе
+## Common Rule 2: Порядок полей класса
 
 ### Поля в классе группировать по модификаторам доступа, а внутри групп - в алфавитном порядке.
 Исключения — классы моделей и DTO.
@@ -28,50 +28,149 @@ IDEA поддерживает автоматическое добавление 
 Java:
 
 ```
-@Singleton
 public final class SomeService {
-    //region Fields
+
+public class OtherService {
+
+    private final Client client;
+
+    private final SomeService someService;
+}
+
+public class SomeService extends OtherService {
 
     private final DateParser dateParser;
 
     private final SomeExtractor someExtractor;
-    
-    //endregion
-    //region Ctor
 
-    @Inject
     public SomeService(DateParser dateParser, SomeExtractor someExtractor) {
     
+
+    /**
+     * ...
+     *
+     * @param client ...
+     * @param someService ...
+     * @param dateParser ...
+     * @param someExtractor ...
+     */
+    public SomeService(
+        Client client,
+        SomeService someService,
+        DateParser dateParser,
+        SomeExtractor someExtractor
+    ) {
+        super(client, someService);
         this.dateParser = dateParser;
         this.someExtractor = someExtractor;
     }
-    
-    //endregion
 }
 ```
 
 Typescript:
 
 ```
-@Injectable({
-    providedIn: "root",
-})
 public class SomeService {
-    //region Fields
 
     private readonly DateParser _dateParser;
 
     private readonly SomeExtractor _someExtractor;
-    
-    //endregion
-    //region Ctor
-    
+
+    /**
+     * ...
+     *
+     * @param dateParser ...
+     * @param someExtractor ...
+     */
     constructor(DateParser dateParser, SomeExtractor someExtractor) {
-    
+
         this._dateParser = dateParser;
         this._someExtractor = someExtractor;
     }
-    
-    //endregion
+}
+```
+
+
+#### В билдере
+
+При использовании .boulder() и .toBuilder() мы сохраняем порядок полей класса.
+
+```
+public class M {
+
+    private final String firstName;
+
+    private final String lastName;
+
+    private final int age;
+
+    private final String company;
+}
+
+public class SomeService {
+
+    public M create(
+        String firstName,
+        String lastName,
+        int age,
+        String company
+    ) {
+        this.someRepository.insert(
+            M.builder()
+                .firstName(firstName)
+                .lastName(lastName)
+                .age(age)
+                .company(company)
+                .build()
+        );
+    }
+
+    public M update(M model, String lastName, String company) {
+
+        this.someRepository.update(
+            model.tobuilder()
+                .lastName(lastName)
+                .company(company)
+                .build()
+        );
+    }
+}
+```
+
+
+#### В сигнатуре метода
+
+В сигнатуре метода также сохраняется первоначальный порядок полей одного класса.
+
+```
+public class M {
+
+    private final String firstName;
+
+    private final String lastName;
+
+    private final int age;
+
+    private final String company;
+}
+
+public class SomeService {
+
+    public M update(
+        M model,
+        String firstName,
+        String lastName,
+        int age,
+        String company
+    ) {
+        this.someRepository.update(
+            model.tobuilder()
+                .firstName(firstName)
+                .lastName(lastName)
+                .age(age)
+                .company(company)
+                .build()
+        );
+    }
 }
 ```
