@@ -20,11 +20,15 @@
 - [JR02: Java классы](backend/java/jr02_class.md)
 - [JR03: Неизменяемые объекты](backend/java/jr03_immutable-object.md)
 - [JR04: Создание модели данных](backend/java/jr04_models.md)
+- [JR05: Создание валидаторов и обработчиков запроса](backend/java/jr05_action_and_validator.md)
+- [JR06: Создание и расположение сущностей, связанных с обработкой событий](backend/java/jr06_event_naming_and_location.md)
 - [JR07: Требования к импортам](backend/java/jr07_import_requirements.md)
 - [JR08: Коды ошибок и операций](backend/java/jr08_error_and_operation_codes.md)
 - [JR09: Сортировка методов](backend/java/jr09_sorting_methods.md)
 - [JR10: Типизированные ID](backend/java/jr10_typified-id.md)
 - [JR11: Именование методов](backend/java/jr11_naming-methods.md)
+- [JR12: Виды объектов для передачи данных между слоями](backend/java/jr12_transfer_object_type.md)
+- [JR13: Try-catch](backend/java/jr13_try-catch.md)
 
 ## SQL
 - [SR01: Индексы для внешних ключей](backend/sql/sr01_index-on-fk.md)
@@ -48,3 +52,6 @@
 ## Jira
 - [JIRAR01: Комментарий по завершении задачи](jira/jirar01_task-comment.md)
 - [JIRAR02: Начало задачи](jira/jirar02_start-task.md)
+
+## Инструменты для code-style
+- [TOOLS01: Inspect code](tools/tools01_inspect-code.md)
