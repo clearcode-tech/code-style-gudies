@@ -29,7 +29,7 @@
                 .body()
                 .split(StringUtils.LF)
         )
-        .filter((String line) -> !line.isEmpty())
+        .filter(Predicate.not(String::isEmpty))
         .collect(Collectors.joining(StringUtils.LF));
     ```
     ```
