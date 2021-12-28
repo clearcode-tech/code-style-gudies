@@ -25,15 +25,15 @@
 - ```static loaded(state: SomeState): boolean;``` <br>
 Определяет, что состояние уже загружено. Чаще всего определяется по основному полю состояния 
 (```return (state.someField !== undefined)```).
-- ```static loaded(state: SomeState): boolean;``` <br>
+- ```static failed(state: SomeState): boolean;``` <br>
 Определяет, что при выполнении загрузки произошла ошибка. Чаще всего определяется по полю ошибки 
 (```return !!state.error;```).
-- ```static needToBeLoaded(state: ApplicationTypesState): boolean;``` <br>
+- ```static needToBeLoaded(state: SomeState): boolean;``` <br>
 Определяет, нужно ли загрузить состояние. Чаще всего определяется как 
   ```
   return (
       !state.loading
       && !SomeStateDerivations.loaded(state)
-      && !ApplicationTypesDerivations.failed(state)
+      && !SomeStateDerivations.failed(state)
   )
   ```
