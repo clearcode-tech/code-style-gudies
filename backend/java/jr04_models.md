@@ -2,10 +2,10 @@
 
 Создание модели с именем {{Name}} включает в себя следующие части:
 
-- Класс и интерфейсы:
+- Классы и интерфейсы:
   - Класс: `business_logic/models/{{Name}}.java`.
-  - Интерфейс для типизации ID: `business_logic/models/ids/{{Name}}Id.java`.
-  - Интерфейс модели, которая содержит ID созданной модели: `business_logic/models/ids/ModelWith{{Name}}Id.java`.
+  - Класс типизированного ID созданной модели: `business_logic/models/ids/{{Name}}Id.java`.
+  - Интерфейс модели, содержащей ID созданной модели: `business_logic/models/ids/ModelWith{{Name}}Id.java`.
   
 - Миграция с созданием соответствующей таблицы в БД.
 
