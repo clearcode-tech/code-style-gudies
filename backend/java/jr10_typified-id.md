@@ -31,9 +31,9 @@ UserId userId = UserId.of(clientUser);
 UserId userId = UserId.of(clientUser.getUserId())
 ```
 
-###Создание шаблонов файлов типизированных ID
+### Создание шаблонов файлов типизированных ID
 
-####Настройка шаблонов
+#### Настройка шаблонов
 
 1. Зайти в _Settings/Preferences_(Ctrl+Alt+S) | _Editor_ | _File and Code Templates_.
 2. Создать шаблон с помощью кнопки "+"(Insert), ввести название шаблона(например, _TypedModelId_).
@@ -106,7 +106,7 @@ public interface ModelWith${Id_class_name} {
 ```
 7. Сохранить изменения.
 
-####Использование шаблонов
+#### Использование шаблонов
 1. Когда необходимо создать типизированный ID для модели, нажать правой кнопкой мыши в списке файлов проекта на 
 директорию "ids" соответствующего сервера, в разделе _New_ найти созданный шаблон и выбрать его.
 ![settings](../../images/backend/java/typified_id/template_creation.png)
