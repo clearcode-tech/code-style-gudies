@@ -29,6 +29,7 @@
 - [JR11: Именование методов](backend/java/jr11_naming-methods.md)
 - [JR12: Виды объектов для передачи данных между слоями](backend/java/jr12_transfer_object_type.md)
 - [JR13: Try-catch](backend/java/jr13_try-catch.md)
+- [JR15: Мапперы](backend/java/jr15_mappers.md)
 
 ## SQL
 - [SR01: Индексы для внешних ключей](backend/sql/sr01_index-on-fk.md)
