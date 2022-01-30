@@ -32,6 +32,7 @@
 
 ## SQL
 - [SR01: Индексы для внешних ключей](backend/sql/sr01_index-on-fk.md)
+- [SR02: Insert](backend/sql/sr02_insert.md)
 
 ## Typescript
 - [TR01: Trailing commas](frontend/typescript/tr01_trailing-comma.md)
@@ -52,6 +53,7 @@
 ## Jira
 - [JIRAR01: Комментарий по завершении задачи](jira/jirar01_task-comment.md)
 - [JIRAR02: Начало задачи](jira/jirar02_start-task.md)
+- [JIRAR03: Слияние задач](jira/jirar03_merge-branches.md)
 
 ## Инструменты для code-style
 - [TOOLS01: Inspect code](tools/tools01_inspect-code.md)

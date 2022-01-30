@@ -8,7 +8,7 @@ IDEA поддерживает автоматическую сортировку 
 1. Перейти в настройки `File | Settings | Editor | Code Style | Java | Arrangement`.
 2. Убрать все галочки из `Grouping rules`.
 3. Удалить из `Matching rules` все правила, не касающиеся `field`.
-   Оставшиеся правила будут группировать поля по модификаторам доступа.
+Оставшиеся правила будут группировать поля по модификаторам доступа.
 4. Для каждого оставшегося правила задать `Order: order by name`. Теперь поля в группе будут отсортированы по алфавиту.
 5. Также рекомендуется задать стандартные пустые строки после заголовка класса и вокруг полей: перейти в раздел `Blank lines` и в полях
    `After class header` и `Around field` вписать **1**.
@@ -93,7 +93,7 @@ public class SomeService {
 
 #### В билдере
 
-При использовании .boulder() и .toBuilder() мы сохраняем порядок полей класса.
+При использовании .builder() и .toBuilder() мы сохраняем порядок полей класса.
 
 ```
 public class M {
@@ -128,7 +128,7 @@ public class SomeService {
     public M update(M model, String lastName, String company) {
 
         this.someRepository.update(
-            model.tobuilder()
+            model.toBuilder()
                 .lastName(lastName)
                 .company(company)
                 .build()
@@ -164,7 +164,7 @@ public class SomeService {
         String company
     ) {
         this.someRepository.update(
-            model.tobuilder()
+            model.toBuilder()
                 .firstName(firstName)
                 .lastName(lastName)
                 .age(age)
