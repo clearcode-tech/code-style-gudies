@@ -13,7 +13,22 @@
 
 Для поддержки этого правила в проекте должен быть настроен линтер, который подскажет, если порядок был нарушен.
 
-### Настройка Stylelint в UI-проекте
+### Использование Stylelint, установленного в UI-проекте
+
+В IDEA открыть настройки: File | Settings | Languages & Frameworks | Style Sheets | Stylelint
+
+   - Поставить галочку `Enable`
+
+   - Stylelint package:
+     `<project>/node_modules/stylelint`
+
+   - Configuration file:
+     `<project>/stylelint.config.js`
+
+   - Run for files: 
+     `{**/*,*}.{scss,html}` 
+
+### Установка Stylelint в UI-проект
 
 1. Установить `stylelint`:
     ```
@@ -62,12 +77,3 @@
         ]
     }
     ```
-6. В IDEA открыть настройки: File | Settings | Languages & Frameworks | Style Sheets | Stylelint
-
-    - Поставить галочку (enable)
-
-    - Stylelint package:
-    `<project>/node_modules/stylelint`
-
-    - Configuration file:
-    `<project>/stylelint.config.js`
