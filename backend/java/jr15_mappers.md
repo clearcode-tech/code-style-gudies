@@ -12,7 +12,7 @@ Mapper<SomeEntity, SomeDTO> или Mapper2<SomeEntity, AnotherEntity, SomeDTO>.
 3. Реализации размещать в директории .../business_logic/services/mappers.
 
 4. В комментарии над классом нужно указать источник и результат маппинга:
-`Маппер для преобразования {@link DocumentSentToSigningResult} в {@link SentToSigningDocumentDTO}`.
+`Сервис для преобразования {@link DocumentSentToSigningResult} в {@link SentToSigningDocumentDTO}`.
 
 5. Мапперы можно переиспользовать в других мапперах через агрегацию.
 
