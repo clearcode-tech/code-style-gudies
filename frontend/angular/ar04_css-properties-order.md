@@ -32,46 +32,26 @@
 
 1. Установить `stylelint`:
     ```
-    npm install --save-dev stylelint
-    ```
-    ```
     yarn add stylelint --dev
     ```
 2. Установить `stylelint-order`:
-    ```
-    npm install --save-dev stylelint-order
-    ```
     ```
     yarn add stylelint-order --dev
     ```
 3. Установить `stylelint-config-property-sort-order-smacss`:
     ```
-    npm install --save-dev stylelint-config-property-sort-order-smacss
-    ```
-    ```
     yarn add stylelint-config-property-sort-order-smacss --dev
     ```
-4. Для получения начального файла конфигурации установить `stylelint-config-standard`:
-    ```
-    npm install --save-dev stylelint-config-standard
-    ```
-    ```
-    yarn add stylelint-config-standard --dev
-    ```
-    Перенести файл конфигурации из `<project>/node_modules/stylelint-config-recommended/index.js` в `<project>/stylelint.config.js`. После этого `stylelint-config-standard` можно удалить:
-    ```
-    npm uninstall stylelint-config-standard
-    ```
-    ```
-    yarn remove stylelint-config-standard
-    ```
-5. В файл конфигурации `stylelint.config.js` перед массивом `rules` добавить настройки:
+4. Создать файл конфигурации `stylelint.config.js`. Для генерации файла можно воспользоваться пакетом
+   stylelint-config-standard. Перед массивом `rules` добавить настройки `plugins`, `extends` и `customSyntax`
+   со следующим содержанием:
     ```
     module.exports = {
         "plugins": [
             "stylelint-order"
          ],
-        "extends": 'stylelint-config-property-sort-order-smacss',
+        "extends": "stylelint-config-property-sort-order-smacss",
+        "customSyntax": "postcss-less", 
         "rules": [
             ... Rules go here ...
         ]
