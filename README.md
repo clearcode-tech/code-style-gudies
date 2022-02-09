@@ -43,6 +43,7 @@
 - [AR03: Импорты в Angular](frontend/angular/ar03-imports.md)
 - [AR04: Порядок свойств CSS](frontend/angular/ar04_css-properties-order.md)
 - [AR05: Html атрибуты](frontend/angular/ar05_html-attributes.md)
+- [AR06: Сервисы и derivations](frontend/angular/ar06_services_and_derivations.md)
 
 ## Git
 - [GR01: Первый коммит к задаче](git/gr01_task-first-commit.md)
