@@ -19,14 +19,10 @@
 
    - Поставить галочку `Enable`
 
-   - Stylelint package:
-     `<project>/node_modules/stylelint`
-
-   - Configuration file:
-     `<project>/stylelint.config.js`
-
-   - Run for files: 
-     `{**/*,*}.{scss,html}` 
+   - Задать настройки (могут отличаться в зависимости от версии IDEA)
+     - Stylelint package: `<project>/node_modules/stylelint`
+     - Configuration file: `<project>/stylelint.config.js`
+     - Run for files: `{**/*,*}.{scss,html}` 
 
 ### Установка Stylelint в UI-проект
 
