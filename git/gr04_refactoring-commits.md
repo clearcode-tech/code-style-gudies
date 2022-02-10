@@ -44,11 +44,13 @@
   - Замена одной повторяющейся фразы в комментариях кода на другую с помощью "Replace all" или поиском по проекту.
 
     ```
-    HRL-1 Переименование метода SomeService#someMethod1()
-    ```
-    ```
-    HRL-1 Перемещение метода SomeService#anotherMethod1() 
+    HRL-1 Переименование метода someMethod
     
-    Перемещение метода SomeService#anotherMethod1() в AnotherService.
+    В someNewFancyMethod.
+    ```
+    ```
+    HRL-1 Перемещение метода anotherMethod
+    
+    Метод перенесён из SomeService в AnotherService.
     ```
 
