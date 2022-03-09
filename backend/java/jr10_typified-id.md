@@ -41,7 +41,7 @@ UserId userId = UserId.of(clientUser.getUserId())
 ```
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #set( $Id_class_name = "${Model_name}Id" )
-import ru.ekd.commons.models.BaseModelId;
+import tech.clearcode.core.app_core.models.BaseModelId;
 
 import java.util.UUID;
 
