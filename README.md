@@ -33,6 +33,7 @@
 ## SQL
 - [SR01: Индексы для внешних ключей](backend/sql/sr01_index-on-fk.md)
 - [SR02: Insert](backend/sql/sr02_insert.md)
+- [SR03: Именование внешних ключей](backend/sql/sr03_fk-naming.md)
 
 ## Typescript
 - [TR01: Trailing commas](frontend/typescript/tr01_trailing-comma.md)
