@@ -29,6 +29,7 @@
 - [JR11: Именование методов](backend/java/jr11_naming-methods.md)
 - [JR12: Виды объектов для передачи данных между слоями](backend/java/jr12_transfer_object_type.md)
 - [JR13: Try-catch](backend/java/jr13_try-catch.md)
+- [JR14: Именование ID переменных](backend/java/jr14_naming_id_variables.md)
 - [JR16: Именование DTO и валидаторов](backend/java/jr16_naming_dto_and_validators.md)
 
 ## SQL
@@ -44,6 +45,7 @@
 - [AR03: Импорты в Angular](frontend/angular/ar03-imports.md)
 - [AR04: Порядок свойств CSS](frontend/angular/ar04_css-properties-order.md)
 - [AR05: Html атрибуты](frontend/angular/ar05_html-attributes.md)
+- [AR06: Сервисы и derivations](frontend/angular/ar06_services_and_derivations.md)
 
 ## Git
 - [GR01: Первый коммит к задаче](git/gr01_task-first-commit.md)
