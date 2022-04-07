@@ -48,6 +48,6 @@
 
 #### Правила инициализации значений в State'ах:
 
-- для boolean полей - false;
-- для error и других полей с типом _ApiResponse_ - null
-- для других данных состояния - undefined
+- для `boolean` полей - `false`;
+- для `error` и других полей с типом _ApiResponse_ - `null`
+- для других данных состояния - `undefined`
