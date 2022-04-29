@@ -12,9 +12,9 @@
 - build...
 
 
-  Имена методов необходимо выбирать так, чтобы при усложнении логики метода не было необходимости менять наименование
-  метода.
-
+  Названия методов должны быть бизнесовые, если им можно дать логичное бизнесовое имя. Необходимо выбирать названия так,
+  чтобы при усложнении логики метода не было необходимости менять название метода.
+Примеры:
 ```
     public Document buildNewSentToSigningDraft(String documentExternalId) {
 
@@ -32,4 +32,19 @@
             .tenantId(tenantId.getValue())
             .build();
     }
+````
+Если метод предполагает создание новой модели, то он должен находиться в static factories и называться build/of.
+Пример:
+````
+//region Static factories
+
+    public static NamedModelDTO of(NamedModel namedModel) {
+
+        return NamedModelDTO.builder()
+            .id(namedModel.getId())
+            .name(namedModel.getName())
+            .build();
+    }
+
+//endregion
 ````
