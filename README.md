@@ -29,6 +29,8 @@
 - [JR11: Именование методов](backend/java/jr11_naming-methods.md)
 - [JR12: Виды объектов для передачи данных между слоями](backend/java/jr12_transfer_object_type.md)
 - [JR13: Try-catch](backend/java/jr13_try-catch.md)
+- [JR14: Именование ID переменных](backend/java/jr14_naming_id_variables.md)
+- [JR16: Именование DTO и валидаторов](backend/java/jr16_naming_dto_and_validators.md)
 
 ## SQL
 - [SR01: Индексы для внешних ключей](backend/sql/sr01_index-on-fk.md)
@@ -50,6 +52,7 @@
 - [GR01: Первый коммит к задаче](git/gr01_task-first-commit.md)
 - [GR02: Некорректно привязанные коммиты](git/gr02_incorrect-linked-commits.md)
 - [GR03: Разрешение конфликтов при релизе](git/gr03_resolving-release-conflicts.md)
+- [GR04: Фомирование коммитов рефакторинга](git/gr04_refactoring-commits.md)
 - [GR05: Версионирование в ветках dev](git/gr05_dev_branches_versioning.md)
 
 ## Jira
