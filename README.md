@@ -48,6 +48,9 @@
 - [AR05: Html атрибуты](frontend/angular/ar05_html-attributes.md)
 - [AR06: Сервисы и derivations](frontend/angular/ar06_services_and_derivations.md)
 
+## NgRx
+- [NGRX01: State](frontend/ngrx/ngrx01-state.md)
+
 ## Git
 - [GR01: Первый коммит к задаче](git/gr01_task-first-commit.md)
 - [GR02: Некорректно привязанные коммиты](git/gr02_incorrect-linked-commits.md)
