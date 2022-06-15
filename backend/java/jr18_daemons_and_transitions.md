@@ -1,4 +1,4 @@
-## Java Rule 17: Daemons и Transitions
+## Java Rule 18: Daemons и Transitions
 
 
 ####1. Состояния задачи
