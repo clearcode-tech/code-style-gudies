@@ -31,6 +31,7 @@
 - [JR13: Try-catch](backend/java/jr13_try-catch.md)
 - [JR14: Именование ID переменных](backend/java/jr14_naming_id_variables.md)
 - [JR16: Именование DTO и валидаторов](backend/java/jr16_naming_dto_and_validators.md)
+- [JR18: Daemons и transitions](backend/java/jr18_daemons_and_transitions.md)
 
 ## SQL
 - [SR01: Индексы для внешних ключей](backend/sql/sr01_index-on-fk.md)
