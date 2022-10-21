@@ -32,6 +32,7 @@
 - [JR14: Именование ID переменных](backend/java/jr14_naming_id_variables.md)
 - [JR15: Мапперы](backend/java/jr15_mappers.md)
 - [JR16: Именование DTO и валидаторов](backend/java/jr16_naming_dto_and_validators.md)
+- [JR17: Методы формирования моделей](backend/java/jr17_methods_to_builder_models.md)
 - [JR18: Daemons и transitions](backend/java/jr18_daemons_and_transitions.md)
 
 ## SQL
