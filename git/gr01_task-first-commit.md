@@ -21,7 +21,6 @@ EN-XXX Версия задачи
 ### Примеры версий
 - Play проект: 
   - в `build.sbt` изменить `version := "2.5.1"` на `version := "2.5.1.HRL-270"`
-  - в `conf/version` изменить `2.5.1` на `2.5.1.HRL-270`
 - Maven проект:
   - в `pom.xml` изменить `<version>2.5.1</version>` на `<version>2.5.1.HRL-270-SNAPSHOT</version>`
 - Angular проект:
