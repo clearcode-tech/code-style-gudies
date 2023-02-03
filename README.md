@@ -34,6 +34,7 @@
 - [JR16: Именование DTO и валидаторов](backend/java/jr16_naming_dto_and_validators.md)
 - [JR17: Методы формирования моделей](backend/java/jr17_methods_to_builder_models.md)
 - [JR18: Daemons и transitions](backend/java/jr18_daemons_and_transitions.md)
+- [JR19: Удаление моделей, полей, методов, событий](backend/java/jr19_entity_deletion.md)
 
 ## SQL
 - [SR01: Индексы для внешних ключей](backend/sql/sr01_index-on-fk.md)
