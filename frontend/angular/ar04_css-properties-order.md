@@ -38,6 +38,10 @@
     ```
     yarn add stylelint-config-property-sort-order-smacss --dev
     ```
+3. Установить `postcss-less`:
+    ```
+    yarn add postcss-less --dev
+    ```
 4. Создать файл конфигурации `stylelint.config.js`. Для генерации файла можно воспользоваться пакетом
    stylelint-config-standard. Перед массивом `rules` добавить настройки `plugins`, `extends` и `customSyntax`
    со следующим содержанием:
