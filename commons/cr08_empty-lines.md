@@ -99,5 +99,22 @@
         String some = this.service.doSomething(another);
         return another + some;
     }
+   
+   /**
+     * ...
+     *
+     * @return ...
+     */
+    public String someMethod(String another) {
+        
+        try {
+   
+            String some = this.service.doSomething(another);
+            return another + some;
+        }
+        catch (...) {
+   
+            ...
+        }
+    }
     ```
-  
