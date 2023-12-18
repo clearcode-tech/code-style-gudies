@@ -20,30 +20,6 @@
 - lombok.Getter для доступа к значениям полей класса.
 - lombok.EqualsAndHashCode(callSuper = true, onlyExplicitlyIncluded = true) для переопределения equals и hashcode объекта.
 - javax.persistence.Entity для обозначения сущностей.
+- lombok.FieldNameConstants для удобства работы с БД - для всех полей класса делаем enum отображение.
 
 2. Модели (Entity) наследуем от BaseModel.
-
-3. Для удобства работы с БД - для всех полей класса делаем enum отображение:
-```
-public final class DocumentSigningRequest extends BaseModel {
-
-    private final UUID documentSignerId;
-
-    private final String state;
-
-    public enum Fields implements ModelField<DocumentSigningRequest> {
-
-        DOCUMENT_SIGNER_ID("documentSignerId"),
-
-        STATE("state"),
-
-        @Getter
-        private final Field field;
-
-        Fields(String name) {
-
-            this.field = this.extractField(name, DocumentSigningRequest.class);
-        }
-    }
-}
-```
