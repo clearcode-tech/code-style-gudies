@@ -69,3 +69,4 @@
 
 ## Инструменты для code-style
 - [TOOLS01: Inspect code](tools/tools01_inspect-code.md)
+- [TOOLS02: Hotkeys Idea](tools/tools02_hotkeys-idea.md)
